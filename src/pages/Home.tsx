@@ -165,7 +165,7 @@ export default function Home() {
                <div className="absolute bottom-10 left-10 w-32 h-32 bg-purple-500/20 blur-3xl animate-pulse delay-1000" />
                
                <div className="grid grid-cols-2 gap-4 relative z-10 w-full max-w-sm">
-                  {['React', 'NestJS', 'FastAPI', 'PostgreSQL', 'Docker', 'K8s', 'Prophet', 'PyTorch'].map((tech) => (
+                  {['React', 'NestJS', 'Python', 'FastAPI', 'PostgreSQL', 'Docker', 'K8s', 'Prophet', 'PyTorch'].map((tech) => (
                     <div key={tech} className="bg-black/40 backdrop-blur shadow-xl border border-white/10 p-4 rounded-xl text-center text-gray-300 font-mono text-sm tracking-wider uppercase">
                       {tech}
                     </div>

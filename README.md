@@ -1,20 +1,92 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SmartRetailX - Personalized Retail Platform
 
-# Run and deploy your AI Studio app
+SmartRetailX is a React + TypeScript + Vite frontend showcase for an AI-driven retail ecosystem.
+It presents four core modules through an interactive single-page experience:
 
-This contains everything you need to run your app locally.
+1. Sinhala Voice Assistant
+2. Customer Segmentation
+3. BI Dashboard (Predictive Analytics)
+4. Personalized Promotion Engine
 
-View your app in AI Studio: https://ai.studio/apps/ad67e51c-9955-432b-b205-d12f84c80901
+## Tech Stack
 
-## Run Locally
+- React 19
+- TypeScript
+- Vite 6
+- React Router DOM 7
+- Tailwind CSS 4
+- Motion (animations)
+- Recharts (data visualization)
+- Lucide React (icons)
 
-**Prerequisites:**  Node.js
+## Getting Started
 
+### Prerequisites
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Node.js 18+ (Node.js 20 recommended)
+- npm or pnpm
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+or
+
+```bash
+pnpm install
+```
+
+### Run development server
+
+```bash
+npm run dev
+```
+
+The app runs on http://localhost:3000 by default.
+
+## Available Scripts
+
+- `npm run dev` - Start Vite dev server (`--port=3000 --host=0.0.0.0`)
+- `npm run build` - Build production assets
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Type-check (`tsc --noEmit`)
+- `npm run clean` - Remove build output (`dist`)
+
+## App Routes
+
+- `/` - Platform overview
+- `/voice` - Sinhala Voice Assistant module
+- `/segmentation` - Customer segmentation module
+- `/analytics` - BI dashboard and forecasting module
+- `/promotions` - Personalized promotion engine module
+
+## Project Structure
+
+```text
+src/
+   App.tsx
+   main.tsx
+   index.css
+   lib/
+      utils.ts
+   pages/
+      Home.tsx
+      VoiceAssistant.tsx
+      Segmentation.tsx
+      BIDashboard.tsx
+      PromotionEngine.tsx
+```
+
+## Configuration Notes
+
+- No `.env.local` or API key is required to run the current frontend demo.
+- The repository currently contains the UI showcase and static/sample visualization data.
+
+## Build and Preview
+
+```bash
+npm run build
+npm run preview
+```
