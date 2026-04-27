@@ -41,7 +41,7 @@ export default function BIDashboard() {
       {/* Main Stats */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {[
-          { label: 'Forecast Accuracy (30d)', value: '92.9%', icon: Activity, color: 'text-green-400' },
+          { label: 'Forecast MAPE (30d)', value: '7.1%', icon: Activity, color: 'text-green-400' },
           { label: 'Explanatory Clarity', value: '91.5%', icon: Info, color: 'text-blue-400' },
           { label: 'Alert Precision', value: '91.2%', icon: AlertTriangle, color: 'text-orange-400' }
         ].map((stat, i) => (

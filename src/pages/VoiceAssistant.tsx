@@ -6,7 +6,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 const performanceData = [
   { name: 'ASR Accuracy', value: 87, full: 100, color: '#3b82f6' },
   { name: 'Intent Detection', value: 85, full: 100, color: '#8b5cf6' },
-  { name: 'User Satisfaction', value: 92, full: 100, color: '#10b981' },
+  { name: 'Increased Trust', value: 70, full: 100, color: '#10b981' },
 ];
 
 const features = [
